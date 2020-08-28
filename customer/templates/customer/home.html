@@ -1,0 +1,9 @@
+{% extends 'customer/base.html' %}
+{% block content %}
+    {% for cus in customer %}
+        <h1>{{ cus.name }}</h1>
+        <p>id {{ cus.id }} </p>
+        <p>Email {{ cus.Email }} </p>
+    {% endfor %}
+{% endblock content %}
+
