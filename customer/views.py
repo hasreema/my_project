@@ -1,24 +1,10 @@
 from django.shortcuts import render
-
-customer = [
-    {
-        'name': 'Reema Hassouna',
-        'id': '123456789',
-        'Email': 'reema@gmail.com',
-        'payment': 'xxx'
-    },
-    {
-        'name': 'Mansour Hassouna',
-        'id': '123456788',
-        'Email': 'mansour@gmail.com',
-        'payment': 'xxx'
-    }
-]
+from .models import customer
 
 
 def home(request):
     context = {
-        'customer': customer
+        'customer': customer.objects.all()
     }
     return render(request, 'customer/home.html', context)
 
