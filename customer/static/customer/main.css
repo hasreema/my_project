@@ -4,6 +4,9 @@ html, body{
     color: red;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
+h1{
+    color: red;
+}
 
 .navbar {
     padding: .8rem;
@@ -31,4 +34,57 @@ html, body{
 .carousel-caption h1 {
     font-size: 500%;
     text-shadow: 1px 1px 1px 10px #000;
+
+}.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500%;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-fa-google-plus-g {
+    color: #dd4b39
+}
+
+.fa-instagram {
+    color: #517fa4
+}
+
+.fa-facebook:hover,
+.fa-fa-google-plus-g:hover,
+.fa-instagram:hover, {
+    color: #d5d5d5;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    wight: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #d5d5d5
+}
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    wight: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
 }
